@@ -1,0 +1,1017 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#biggerLeaves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#biggerLeaves">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op3"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op4"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#moreLeaves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#moreLeaves">
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op1"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op2"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#MaxSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#MaxSize"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Acacia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Acacia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thick"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Alder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Alder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Apple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Apple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#true"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#AshTree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#AshTree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thick"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Aspen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Aspen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Beech -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Beech">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Birch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Birch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Cedar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Cedar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Chesnut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Chesnut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#StarShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#true"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Dogrose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Dogrose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thick"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#true"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Hawton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Hawton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Leaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Leaf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Linden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Linden">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Maple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Maple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#StarShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#MultiLeaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#MultiLeaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Leaf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op1"/>
+                <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#SingleLeaf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Oak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Oak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Pine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Pine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Poplar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Poplar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#RedMaple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#RedMaple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#StarShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Rowanberry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Rowanberry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thick"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#true"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#SingleLeaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#SingleLeaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Leaf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#op2"/>
+                <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#StarShaped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#StarShaped">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#SingleLeaf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#MultiLeaf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Thin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#MultiLeaf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Viburnum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Viburnum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#StarShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Willow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Willow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#WithFruit"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#hasBodyColor"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#LeafCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#multiBodyCount"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#darkColoredBody">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Apple"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#AshTree"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Cedar"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Chesnut"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Dogrose"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Linden"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Maple"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Pine"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Willow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#false"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#lightColoredBody">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Acacia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Alder"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Aspen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Beech"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Birch"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Hawton"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Oak"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Poplar"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#RedMaple"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Rowanberry"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#Viburnum"/>
+        <MaxSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</MaxSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#true -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#true"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#y">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#SingleLeaf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#MultiLeaf"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#moreLeaves"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#StarShaped"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#NormalShaped"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#biggerLeaves"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ferhat/ontologies/2022/0/untitled-ontology-10#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
